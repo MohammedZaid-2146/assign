@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.posts {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mainblock article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainblock article div{
+  flex: 1;
+}
+
+.mainblock article div .leftBlock{
+  width: 100%;
+}
+
+form input , form textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+button{
+  background: rgb(20, 147, 220);
+  color: whitesmoke;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul li{
+  margin: 5px;
+  border: 5px solid #eeee;
+  padding: 10px;
+}
